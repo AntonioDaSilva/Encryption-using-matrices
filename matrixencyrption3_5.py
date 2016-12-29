@@ -104,7 +104,7 @@ def encyrpt_2():
 #two functions returns strings (encypted ones)
 
 def sumencyrptedsup():
-    a=((encyrpt_2())+(encyrpt_1()))
+    a=((encyrpt_1())+" "+(encyrpt_2()))
     return a
 
 def filecreate_write():
